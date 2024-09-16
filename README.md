@@ -34,7 +34,7 @@ This C application provides a menu-driven interface for performing various matri
    ```bash
    gcc -o matrix_app main.c fonction.c fct.c fct3.c -lm
 
-   ## File Structure
+## File Structure
 
 - **`main.c`**: Contains the main function and menu logic.
 - **`fonction.c`**: Implements matrix arithmetic functions.

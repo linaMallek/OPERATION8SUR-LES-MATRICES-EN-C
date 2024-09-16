@@ -33,3 +33,13 @@ This C application provides a menu-driven interface for performing various matri
    To compile the program, use the following command:
    ```bash
    gcc -o matrix_app main.c fonction.c fct.c fct3.c -lm
+
+   ## File Structure
+
+- **`main.c`**: Contains the main function and menu logic.
+- **`fonction.c`**: Implements matrix arithmetic functions.
+- **`fct.c`**: Implements additional matrix operations.
+- **`fct3.c`**: Implements string and linked list functions.
+- **`fonction.h`**: Header file declaring functions used in `fonction.c`.
+- **`fct.h`**: Header file declaring functions used in `fct.c`.
+- **`fct3.h`**: Header file declaring functions used in `fct3.c`.
